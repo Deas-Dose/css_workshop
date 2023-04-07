@@ -1,0 +1,49 @@
+#about {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem !important;
+}
+
+.text_small {
+    height: max-content;
+    width: 50rem;
+}
+
+.about__quran {
+    display: flex;
+    width: 35rem;
+    float: left;
+}
+
+.about__quran > .ellipse {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+}
+
+.about__quran > .cressent {
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30rem;
+}
+
+.about__content > h2 {
+    text-align: center;
+}
+
+.about__content > h5 {
+    text-align: justify;
+}
+
+.bttn {
+    justify-content: center;
+}

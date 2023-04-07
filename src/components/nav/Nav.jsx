@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Nav.css'
-import icon from "../../assets/main_icon.svg"
+import icon from "../../assets/main_icon_sized.png"
 
 function Nav() {
   const [activeNav, setActive] = useState("#");
@@ -8,18 +8,20 @@ function Nav() {
   return (
     <nav>
       {/* Logo or icon */}
-      <a href='#header' onClick={() => {setActive('#')}} className={activeNav === '#' ? 'active' : ''}>
+      <a href='#header'>
         <img src={icon} alt="Logo" />
       </a>
+      <div id='links'>
+        <a href="#header" onClick={() => {setActive('#header')}} className={activeNav === '#header' ? 'active' : ''}>HOME</a>
+        <a href="#about" onClick={() => {setActive('#about')}} className={activeNav === '#about' ? 'active' : ''}>QURAN</a>
+        <a href="#listing" onClick={() => {setActive('#listing')}} className={activeNav === '#listing' ? 'active' : ''}>QURAN AUDIO</a>
+        <a href="#blog" onClick={() => {setActive('#blog')}} className={activeNav === '#blog' ? 'active' : ''}>BLOGS</a>
+        <a href="#footer" onClick={() => {setActive('#footer')}} className={activeNav === '#footer' ? 'active' : ''}>ABOUT US</a>
+      </div>
 
-      <a href="#header" className={activeNav === '#header' ? 'active' : ''}>HOME</a>
-      <a href="#about">QURAN</a>
-      <a href="#listing">QURAN AUDIO</a>
-      <a href="#blog">BLOGS</a>
-      <a href="#footer">ABOUT US</a>
-
-
-      <a href="">Sign in</a>
+      <div id="sign__in">
+        <a href="#" className='sign'>Sign in</a>
+      </div>
     </nav>
   )
 }
