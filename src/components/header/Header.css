@@ -1,7 +1,13 @@
-#header {
-    background-image: linear-gradient(to bottom, 
-              url('../../assets/bg.png') 0%,
-              rgba(255, 255, 255, 0) 100%);
+
+
+#bgimage {
+    position: absolute;
+    opacity: 0.1;
+}
+
+#bgimage > img{
+    width: 100vw;
+    height: 80vh;
 }
 
 .image {

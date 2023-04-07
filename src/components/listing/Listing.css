@@ -1,0 +1,25 @@
+h2 {
+    text-align: center;
+}
+
+.search__box {
+    border: 3px solid #20A36C;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    align-items: center;
+    width: 30rem;
+    height: 3rem;
+    margin: auto;
+}
+
+.listing__container > .search__box {
+    display: flex;
+    flex-direction: row;
+}
+
+.search__box > input[type="search"] {
+    flex: 1;
+    border: 1px solid black;
+}

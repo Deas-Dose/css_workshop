@@ -1,11 +1,16 @@
 import React from 'react'
 import './Header.css'
 import quran from "../../assets/quran.svg"
+import bg from "../../assets/bg.png"
 
 function Header() {
   return (
+    <>
+    <div id="bgimage" className='header'><img src={bg} /></div>
     <section id="header">
+        
         <div className="container header__container">
+          
           <div className="text">
             <h2>Read Quran Everyday.<br/>
             Add On Your Daily Routine</h2>
@@ -24,6 +29,7 @@ function Header() {
           </div>
         </div>
     </section>
+    </>
   )
 }
 
