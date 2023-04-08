@@ -37,6 +37,10 @@ body {
     overflow: hidden;
 }
 
+h3 {
+    color: #37374D;
+}
+
 h2 {
     color: #37374D;
     font-size: var(--heading-1-size);
@@ -52,7 +56,6 @@ section {
 }
 
 section > h2 {
-    text-align: center;
     margin-bottom: 3rem;
     color: var(--color-primary);
 }

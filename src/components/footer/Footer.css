@@ -1,0 +1,86 @@
+#footer {
+    background-color: var(--color-primary);
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    height: 25rem;
+}
+
+
+.left-column {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.thnx > h5, h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.thnx > h5 {
+    text-align: justify;
+}
+
+
+.contact__info > img {
+    display: inline-block;
+    /* padding: 1rem 2rem 0 0; */
+    margin-bottom: 5rem;
+    
+}
+
+.contact__info {
+    overflow: hidden;
+    height: 100%;
+}
+
+.contact__info > h3 {
+    color: #FFFFFF;
+}
+
+.icon {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    left: 2rem;
+}
+
+.email , .fb,  .ig  {
+    position: relative;
+    left: 6rem;
+    top: 3rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0 2rem 4rem 2rem;
+}
+
+.contact__form {
+    background-color: #FFFFFF;
+    height: 90%;
+    width: 70%;
+    border-radius: 2rem;
+    margin: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__form > input, textarea {
+    width: 70%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-secondary);
+    resize: none;
+
+}
+
+.contact__form > button {
+    width: 70%;
+}
