@@ -12,11 +12,11 @@ function Nav() {
         <img src={icon} alt="Logo" />
       </a>
       <div id='links'>
-        <a href="#header" onClick={() => {setActive('#header')}} className={activeNav === '#header' ? 'active' : ''}>HOME</a>
-        <a href="#about" onClick={() => {setActive('#about')}} className={activeNav === '#about' ? 'active' : ''}>QURAN</a>
-        <a href="#listing" onClick={() => {setActive('#listing')}} className={activeNav === '#listing' ? 'active' : ''}>QURAN AUDIO</a>
-        <a href="#blog" onClick={() => {setActive('#blog')}} className={activeNav === '#blog' ? 'active' : ''}>BLOGS</a>
-        <a href="#footer" onClick={() => {setActive('#footer')}} className={activeNav === '#footer' ? 'active' : ''}>ABOUT US</a>
+        <a href="#" onClick={() => {setActive('#header')}} className={activeNav === '#header' ? 'active' : ''}>HOME</a>
+        <a href="#" onClick={() => {setActive('#about')}} className={activeNav === '#about' ? 'active' : ''}>QURAN</a>
+        <a href="#" onClick={() => {setActive('#listing')}} className={activeNav === '#listing' ? 'active' : ''}>QURAN AUDIO</a>
+        <a href="#" onClick={() => {setActive('#blog')}} className={activeNav === '#blog' ? 'active' : ''}>BLOGS</a>
+        <a href="#" onClick={() => {setActive('#footer')}} className={activeNav === '#footer' ? 'active' : ''}>ABOUT US</a>
       </div>
 
       <div id="sign__in">

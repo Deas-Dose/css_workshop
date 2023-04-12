@@ -3,37 +3,40 @@
     display: flex;
     flex-direction: column;
     margin-top: 0rem !important;
+    margin-bottom: 5rem;
+    height: 100%;
 }
 
-.text_small {
+/* .text_small {
     height: max-content;
     width: 50rem;
-}
+} */
 
 .about__quran {
     display: flex;
-    width: 35rem;
+    width: 50%;
     float: left;
 }
 
 .about__quran > .ellipse {
     position: relative;
-    width: 30rem;
-    height: 30rem;
+    max-width: 50%;
+    height: auto;
 }
 
-.about__quran > .cressent {
+.about__quran > img {
     position: absolute;
-    width: 30rem;
-    height: 30rem;
+    width: 30%;
+    height: auto;
 }
 
 .about__content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    height: 30rem;
+    margin: auto 0;
+    overflow: hidden !important;
 }
 
 .about__content > h2 {
