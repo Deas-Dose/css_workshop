@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/css_workshop/static/css/main.9a30e274.css",
-    "main.js": "/css_workshop/static/js/main.2c882d6f.js",
+    "main.css": "/css_workshop/static/css/main.240f80ff.css",
+    "main.js": "/css_workshop/static/js/main.11a8aa10.js",
     "static/media/quran.svg": "/css_workshop/static/media/quran.2908d0de79219b629b8fb8ce7dc15ad8.svg",
     "static/media/cressent.svg": "/css_workshop/static/media/cressent.0f5756d32bfda3856cc29eedaf8387a5.svg",
     "static/media/photo1.svg": "/css_workshop/static/media/photo1.718d7515724ed429cfe91c485d31f327.svg",
@@ -14,11 +14,11 @@
     "static/media/fb.svg": "/css_workshop/static/media/fb.ef27f60a36e46c6250b49e9c773a7167.svg",
     "index.html": "/css_workshop/index.html",
     "static/media/ellipse.svg": "/css_workshop/static/media/ellipse.7959ec8e2abc1945ca03136c3324a2b7.svg",
-    "main.9a30e274.css.map": "/css_workshop/static/css/main.9a30e274.css.map",
-    "main.2c882d6f.js.map": "/css_workshop/static/js/main.2c882d6f.js.map"
+    "main.240f80ff.css.map": "/css_workshop/static/css/main.240f80ff.css.map",
+    "main.11a8aa10.js.map": "/css_workshop/static/js/main.11a8aa10.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a30e274.css",
-    "static/js/main.2c882d6f.js"
+    "static/css/main.240f80ff.css",
+    "static/js/main.11a8aa10.js"
   ]
 }
